@@ -69,7 +69,7 @@ html {
     */
     font-family: Manrope, sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.5; /* 160%; */
 
     margin: 2px;
@@ -128,6 +128,8 @@ h1{
     text-align: center; 
     padding: 0.5em;
     */
+    line-height: 1.1;
+
     text-align: left; 
     margin-top: .75em; /* 3em; */
     margin-bottom: 0.25em; /* 3em; */
