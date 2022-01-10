@@ -76,3 +76,50 @@ function toggleTheme(){
         localStorage.setItem('theme', 'dark');
     }    
 }
+/*
+var en = {
+    name: "Genrih Grigoryan",
+    mainInfo: "",
+    nowHeader: "Now",
+    nowInfo: "",
+    language: "Русский"
+}
+
+var ru = {
+  name: "Генрих Григорьян",
+  mainInfo: "Наблюдатель. Автор. Предприниматель. Традиционалист. Реалист. Идеалист.",
+
+  language: "English"
+
+}
+
+
+function loadLang(){
+    var lang = localStorage.getItem('language');
+    if(lang==null){
+        //detect and set
+    }
+    else if(lang == 'en'){
+        setLanguage('en')
+    }
+}
+
+function toggleLang(){
+    var theme = localStorage.getItem('theme');
+
+}
+
+function setLanguage(lang){
+  var lang;
+  if(lang == 'en'){
+      lang = en;
+  }
+  else if(lang == 'ru'){
+      lang = ru;
+  }
+  document.getElementById("Name").innerHTML = lang.name;
+
+  document.getElementById("Lang").innerHTML = lang.language;
+
+}
+*/
