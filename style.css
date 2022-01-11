@@ -309,6 +309,11 @@ hr {
     padding-bottom: 1em;
 }
 
+svg g, path, rect{
+  fill: var(--font-color);
+  transition: all 0.5s ease-in-out;
+}
+
 /*
 @media only screen and (max-width: 768px){
 
