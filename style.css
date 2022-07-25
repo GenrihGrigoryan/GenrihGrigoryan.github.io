@@ -327,3 +327,26 @@ svg g, path, rect{
 
 }
 */
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --secondary-color: #f0f0f0;
+        --font-color: #333333;
+        --code-color: #333333;
+        --bg-color: #ffffff;
+        --link-color: #3250b4;
+        --deep-black: #000;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --secondary-color: #646464;
+        --font-color: #ffffff;
+        --bg-color: #333333;
+        --link-color:#dcb4ff;
+        --code-color: #333333;
+        --deep-black: #fff;
+    }
+}
