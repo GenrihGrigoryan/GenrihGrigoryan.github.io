@@ -51,6 +51,7 @@
     --bg-color: #ffffff;
     --link-color: #3250b4;
     --deep-black: #000;
+    --nav: #333333;
 }
 
 [data-theme="dark"] {
@@ -60,6 +61,7 @@
     --link-color:#dcb4ff;
     --code-color: #333333;
     --deep-black: #fff;
+    --nav: #333333;
 }
 
 html { 
@@ -129,7 +131,7 @@ h1{
 
 
     text-align: left; 
-    margin-top: .5em;
+    margin-top: .75em;
     margin-bottom: 0.25em;
     font-weight: 800; 
     font-size:  2.4rem;
@@ -336,6 +338,7 @@ svg g, path, rect{
         --bg-color: #ffffff;
         --link-color: #3250b4;
         --deep-black: #000;
+        --nav: #f0f0f0;
     }
 }
 
@@ -348,5 +351,6 @@ svg g, path, rect{
         --link-color:#dcb4ff;
         --code-color: #333333;
         --deep-black: #fff;
+        --nav: #212121;
     }
 }
