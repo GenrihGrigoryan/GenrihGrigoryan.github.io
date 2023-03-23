@@ -364,7 +364,7 @@ svg g, path, rect{
     :root {
         --secondary-color: #646464;
         --font-color: #ffffff;
-        --bg-color: #333333;
+        --bg-color: #1e1e1e; /*#333333;*/
         --link-color:#dcb4ff;
         --code-color: #333333;
         --deep-black: #fff;
