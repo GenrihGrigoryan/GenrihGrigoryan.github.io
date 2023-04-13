@@ -135,7 +135,6 @@ h1{
     padding: 0.5em;
     */
 
-
     text-align: left; 
     margin-top: .75em;
     margin-bottom: 0.25em;
@@ -149,7 +148,7 @@ h1{
 
 h2, h3 {
     margin-block-start: 1em;
-    margin-block-end: -0.5em;
+    margin-block-end: -0.25em;
     font-weight: 800; 
     font-size:  1.25rem;
 }
