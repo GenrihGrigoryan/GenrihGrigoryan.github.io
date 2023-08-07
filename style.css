@@ -84,6 +84,11 @@ html {
     scroll-behavior: smooth;
 }
 
+.social{
+    display: inline; 
+    margin-right: 8px;
+    transition: all 0.5s ease-in-out;
+}
 
 p{
     margin-top: 8px;
@@ -370,5 +375,8 @@ svg g, path, rect{
         --nav: #212121;
         --underline-link: rgba(220, 180, 255, 0.3);
         --link-hover: rgb(255, 119, 58);
+    }
+    .social{
+        filter: invert(100%);
     }
 }
