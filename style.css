@@ -376,7 +376,7 @@ svg g, path, rect{
         --underline-link: rgba(220, 180, 255, 0.3);
         --link-hover: rgb(255, 119, 58);
     }
-    .social{
+    .social img{
         filter: invert(100%);
     }
 }
